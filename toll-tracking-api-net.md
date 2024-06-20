@@ -1,12 +1,12 @@
-Australia Post Tracking API - .Net
+Toll Tracking API - .Net
 ================================
-Use .Net to track Australia Post shipments with Australia Post Tracking API.
+Use .Net to track Toll shipments with Toll Tracking API.
 
 Features
 --------
-- Real-time Australia Post tracking.
-- Batch Australia Post tracking.
-- Other features to manage your Australia Post tracking.
+- Real-time Toll tracking.
+- Batch Toll tracking.
+- Other features to manage your Toll tracking.
 
 Installation
 ------------
@@ -41,7 +41,7 @@ To use this API, you need to generate your API key.
 - Give a name to your API key, and click "Save" .
 
 
-Then, start to track your Australia Post shipments.
+Then, start to track your Toll shipments.
 
 Usage
 ----------
