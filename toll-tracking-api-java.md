@@ -1,12 +1,12 @@
-Australia Post Tracking API - Java
+Toll Tracking API - Java
 ================================
-Use Java to track Australia Post shipments with Australia Post Tracking API.
+Use Java to track Toll shipments with Toll Tracking API.
 
 Features
 --------
-- Real-time Australia Post tracking.
-- Batch Australia Post tracking.
-- Other features to manage your Australia Post tracking.
+- Real-time Toll tracking.
+- Batch Toll tracking.
+- Other features to manage your Toll tracking.
 
 Installation
 ------------
@@ -39,14 +39,14 @@ To use this API, you need to generate your API key.
 - Give a name to your API key, and click "Save" .
 
 
-Then, start to track your Australia Post shipments.
+Then, start to track your Toll shipments.
 
 Usage
 ----------
 
 Create a tracking (Real-time tracking):
 
-    package com.trackingmore.example.australiapost;
+    package com.trackingmore.example.toll;
     
     import com.trackingmore.TrackingMore;
     import com.trackingmore.exception.TrackingMoreException;
@@ -55,7 +55,7 @@ Create a tracking (Real-time tracking):
     import java.io.IOException;
     import java.util.List;
     
-    public class CreateAustraliaPostTrackingExample {
+    public class CreateTollTrackingExample {
     
         public static void main(String[] args) {
             try {
@@ -84,7 +84,7 @@ Create a tracking (Real-time tracking):
 
 Create trackings (Max. 40 tracking numbers create in one call):
 
-    package com.trackingmore.example.australiapost;
+    package com.trackingmore.example.toll;
     
     import com.trackingmore.TrackingMore;
     import com.trackingmore.exception.TrackingMoreException;
@@ -93,7 +93,7 @@ Create trackings (Max. 40 tracking numbers create in one call):
     import java.io.IOException;
     import java.util.List;
     
-    public class CreateAustraliaPostTrackingsExample {
+    public class CreateTollTrackingsExample {
     
         public static void main(String[] args) {
             try {
@@ -142,7 +142,7 @@ Create trackings (Max. 40 tracking numbers create in one call):
 
 Get status of the shipment:
 
-    package com.trackingmore.example.australiapost;
+    package com.trackingmore.example.toll;
     
     import com.trackingmore.TrackingMore;
     import com.trackingmore.exception.TrackingMoreException;
@@ -151,7 +151,7 @@ Get status of the shipment:
     import java.io.IOException;
     import java.util.List;
     
-    public class GetAustraliaPostTrackingExample {
+    public class GetTollTrackingExample {
     
         public static void main(String[] args) {
             try {
@@ -185,7 +185,7 @@ Get status of the shipment:
 
 Update a tracking by ID:
 
-    package com.trackingmore.example.australiapost;
+    package com.trackingmore.example.toll;
     
     import com.trackingmore.TrackingMore;
     import com.trackingmore.exception.TrackingMoreException;
@@ -194,7 +194,7 @@ Update a tracking by ID:
     import java.io.IOException;
     import java.util.List;
     
-    public class UpdateAustraliaPostTrackingExample {
+    public class UpdateTollTrackingExample {
     
         public static void main(String[] args) {
             try {
